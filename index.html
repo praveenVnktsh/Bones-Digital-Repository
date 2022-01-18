@@ -11,7 +11,7 @@
 
 <body>
     <div id="info">
-        Bones Viewer -
+        Bones Viewer
         <br>
         Left mouse/One finger - Orbit
         <br>
@@ -19,25 +19,20 @@
         <br>
         Right mouse/Three fingers - Pan
         <br>
-        <a id="fit" title="Fit" href="" onclick="zoom_refit ();return false;">Fit Object to Page</a>
-         || 
+        <a id="fit" title="Fit" href="" onclick="fitCameraToObject ();return false;">Fit Object to Page</a>
+        ||
         <a id="rot" title="Rot" href="" onclick="toggle_rotation ();return false;">Animate</a>
     </div>
-    <script src="three.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" integrity="sha512-dLxUelApnYxpLt6K2iomGngnHO83iUvZytA3YjDUCjT0HDOHKXnVYdf3hU4JjM8uEhxf9nD1/ey98U3t2vZ0qQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-    <script src="three.js"></script>
 
-        <script src="OrbitControls.js"></script>
+    <script src="OrbitControls.js"></script>
 
-        <!-- script src="VRMLLoader.js"></script -->
-        <!-- script src="VRMLoader.js"></script -->
+    <!-- script src="VRMLLoader.js"></script -->
+    <!-- script src="VRMLoader.js"></script -->
 
-        <script src="WebGL.js"></script>
-        <!-- script src="stats.min.js"></script -->
-		<script src="DDSLoader.js"></script>
-		<script src="MTLLoader.js"></script>
-		<script src="OBJLoader.js"></script>
-        
+    <script src="WebGL.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/mrdoob/three.js@master/examples/js/loaders/GLTFLoader.js"></script>
     <script src="js/main.js"></script>
 
 
