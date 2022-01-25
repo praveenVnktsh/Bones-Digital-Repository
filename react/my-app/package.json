@@ -1,0 +1,28 @@
+{
+  "name": "react-three-fiber-suspense-gltf-loader",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@react-three/drei": "^8.6.4",
+    "@react-three/fiber": "6.0.14",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-scripts": "4.0.0",
+    "three": "0.127.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
