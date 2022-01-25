@@ -7,10 +7,10 @@
 
 # testing
 /coverage
-*.glb
+# *.glb
 *.gltf
 # production
-/build
+
 
 # misc
 .DS_Store
