@@ -7,7 +7,7 @@ import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 import { Suspense } from "react";
 
 const Model = () => {
-  const gltf = useLoader(GLTFLoader, "./Cranial.glb");
+  const gltf = useLoader(GLTFLoader, "./poo.gltf");
   return (
     <>
       <primitive object={gltf.scene} scale={0.1} />
@@ -48,7 +48,7 @@ export default function App() {
         <Suspense fallback={null}>
           <Model />
           <OrbitControls />
-          <GroundPlane />
+          {/* <GroundPlane /> */}
 
         </Suspense>
       </Canvas>

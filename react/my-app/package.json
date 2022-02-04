@@ -4,7 +4,7 @@
   "description": "",
   "keywords": [],
   "main": "src/index.js",
-  "homepage": "https://praveenvnktsh.github.io/Bones-Digital-Repository/",
+
   "dependencies": {
     "@react-three/drei": "^8.6.4",
     "@react-three/fiber": "6.0.14",
