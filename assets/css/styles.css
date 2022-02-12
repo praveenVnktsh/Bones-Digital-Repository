@@ -1,0 +1,14 @@
+canvas {
+  display: block;
+}
+
+html {
+  overflow: hidden;
+  background: #000;
+}
+
+img {
+  position: absolute;
+  align-items: flex-end;
+}
+
