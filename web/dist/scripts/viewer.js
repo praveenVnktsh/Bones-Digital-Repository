@@ -8,7 +8,12 @@ window.switchSrc = (element, name) => {
     element.classList.remove("selected");
   });
   element.classList.add("selected");
-  currentShowIndex += 1;
+  currentShowIndex= name;
+  var currentModel = dataFromNet[currentShowIndex];
+
+  document.getElementById("model").src = currentModel["url"];
+  document.getElementById("model-text").textContent = currentModel["name"] + " of a " + currentModel["species"] ;
+
 };
 
 document.querySelector(".slider").addEventListener("beforexrselect", (ev) => {
