@@ -1,4 +1,7 @@
 const modelViewer = document.querySelector("model-viewer");
+
+
+
 window.switchSrc = (element, name) => {
   const base = "../../assets/ShopifyModels/" + name;
   modelViewer.src = base + ".glb";
@@ -9,8 +12,9 @@ window.switchSrc = (element, name) => {
   });
   element.classList.add("selected");
   currentShowIndex= name;
-  var currentModel = dataFromNet[currentShowIndex];
 
+
+  var currentModel = dataFromNet[currentShowIndex];
   document.getElementById("model").src = currentModel["url"];
   document.getElementById("model-text").textContent = currentModel["name"] + " of a " + currentModel["species"] ;
 
