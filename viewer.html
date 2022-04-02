@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="emerald">
+<html lang="en" data-theme="pastel">
 
 <head>
   <meta charset="UTF-8">
@@ -44,17 +44,17 @@
         </svg>
       </label>
 
-      <div class="grid grid-cols-2 gap-4">
+      <div class="px-4 grid grid-cols-2 gap-4 ">
         <div>
-          <model-viewer id="model" class="w-full h-full"
-          src="https://cdn.glitch.com/36cb8393-65c6-408d-a538-055ada20431b/Astronaut.glb?1542147958948"
+          <model-viewer id="model" class="w-full h-full "
+          src="data/humerusLeft.glb"
           alt="TEMP TEXT" shadow-intensity="0" camera-controls="true" auto-rotate="true" ar="true">
           <div><b id="model-text">Part of Species Name</b> </div>
 
           <div class="slider">
             <div class="slides">
-              <button class="slide selected" onclick="switchSrc(this, 1)"></button>
-              <button class="slide" onclick="switchSrc(this,  0)"></button>
+              <button class="slide selected items-center" onclick="switchSrc(this,  0)">Humerus (Left)</button>
+              <button class="slide items-center" onclick="switchSrc(this, 1)">Humans Space</button>
               <!-- </button><button class="slide" onclick="switchSrc(this, 'ToyTrain')"
             style="background-image: url('../../assets/ShopifyModels/ToyTrain.png');"> -->
             </div>
