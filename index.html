@@ -13,38 +13,47 @@
   <!-- <img id="iitgnlogo" src="data/logo.png" alt="IITGN Logo"  width="200" height="200"> -->
 
   <section class="relative w-full px-8 text-gray-700 bg-white body-font">
-    <div class="container flex flex-col flex-wrap items-center justify-between py-5 mx-auto md:flex-row max-w-7xl">
-      <a href="index.html"
-        class="relative z-10 flex items-center w-auto text-2xl font-extrabold leading-none text-black select-none">ASC |
-        IITGN</a>
+    <div
+      class="\n  sticky top-0 z-30 flex h-16 w-full justify-center bg-opacity-90 backdrop-blur transition-all duration-100 \n  bg-base-100 text-base-content\n  ">
+      <nav class="navbar w-full">
+        <div class="flex flex-1 md:gap-1 lg:gap-2 justify-between ">
+          <div class="flex items-left gap-2">
+            <a href="/" aria-current="page" aria-label="Homepage" class="flex-0 btn btn-ghost px-2 ">
+              <div class="font-title text-primary inline-flex text-lg transition-all duration-200 md:text-3xl">
+                <span class="uppercase text-base-content">ASC</span>
+                <span class="lowercase text-primary">repo</span>
+                <span> <img src="data/logo.png" class="w-10"></span>
+                <span class="lowercase text-primary">IITGN</span>
+              </div>
+            </a>
+          </div>
 
-      <nav
-        class="top-0 left-0 z-0 flex items-center justify-center w-full h-full py-5 -ml-0 space-x-5 text-base md:-ml-5 md:py-0 md:absolute">
-        <a href="index.html"
-          class="relative font-medium leading-6 text-gray-600 transition duration-150 ease-out hover:text-gray-900"
-          x-data="{ hover: false }" @mouseenter="hover = true" @mouseleave="hover = false">
-          <span class="block">About</span>
-          <span class="absolute bottom-0 left-0 inline-block w-full h-0.5 -mb-1 overflow-hidden">
-            <span x-show="hover" class="absolute inset-0 inline-block w-full h-1 h-full transform bg-gray-900"
-              x-transition:enter="transition ease duration-200" x-transition:enter-start="scale-0"
-              x-transition:enter-end="scale-100" x-transition:leave="transition ease-out duration-300"
-              x-transition:leave-start="scale-100" x-transition:leave-end="scale-0" style="display: none;"></span>
-          </span>
-        </a>
-        <a href="viewer.html"
-          class="relative font-medium leading-6 text-gray-600 transition duration-150 ease-out hover:text-gray-900"
-          x-data="{ hover: false }" @mouseenter="hover = true" @mouseleave="hover = false">
-          <span class="block">Viewer</span>
-          <span class="absolute bottom-0 left-0 inline-block w-full h-0.5 -mb-1 overflow-hidden">
-            <span x-show="hover" class="absolute inset-0 inline-block w-full h-1 h-full transform bg-gray-900"
-              x-transition:enter="transition ease duration-200" x-transition:enter-start="scale-0"
-              x-transition:enter-end="scale-100" x-transition:leave="transition ease-out duration-300"
-              x-transition:leave-start="scale-100" x-transition:leave-end="scale-0" style="display: none;"></span>
-          </span>
-        </a>
+          <div class="flex">
+            <a href="index.html"
+              class="relative font-medium leading-6 text-gray-400 transition duration-150 ease-out hover:text-primary-content"
+              x-data="{ hover: false }" @mouseenter="hover = true" @mouseleave="hover = false">
+              <span class="block px-12">About</span>
+              <span class="absolute bottom-0 left-0 inline-block w-full h-0.5 -mb-1 overflow-hidden">
+                <span x-show="hover" class="absolute inset-0 inline-block w-full h-1 h-full transform bg-gray-900"
+                  x-transition:enter="transition ease duration-200" x-transition:enter-start="scale-0"
+                  x-transition:enter-end="scale-100" x-transition:leave="transition ease-out duration-300"
+                  x-transition:leave-start="scale-100" x-transition:leave-end="scale-0" style="display: none;"></span>
+              </span>
+            </a>
+            <a href="viewer.html"
+              class="relative font-medium leading-6 text-gray-400 transition duration-150 ease-out hover:text-gray-900"
+              x-data="{ hover: false }" @mouseenter="hover = true" @mouseleave="hover = false">
+              <span class="block">Viewer</span>
+              <span class="absolute bottom-0 left-0 inline-block w-full h-0.5 -mb-1 overflow-hidden">
+                <span x-show="hover" class="absolute inset-0 inline-block w-full h-1 h-full transform bg-gray-900"
+                  x-transition:enter="transition ease duration-200" x-transition:enter-start="scale-0"
+                  x-transition:enter-end="scale-100" x-transition:leave="transition ease-out duration-300"
+                  x-transition:leave-start="scale-100" x-transition:leave-end="scale-0" style="display: none;"></span>
+              </span>
+            </a>
+          </div>
+        </div>
       </nav>
-
-
     </div>
   </section>
 
@@ -56,16 +65,16 @@
           <div
             class="w-full pb-6 space-y-6 sm:max-w-md lg:max-w-lg md:space-y-4 lg:space-y-8 xl:space-y-9 sm:pr-5 lg:pr-0 md:pb-0">
             <h1
-              class="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-4xl lg:text-5xl xl:text-6xl">
+              class="text-4xl font-extrabold tracking-tight text-gray-600 sm:text-5xl md:text-4xl lg:text-5xl xl:text-6xl">
               <span class="block xl:inline">Digital Repository of</span>
-              <span class="block text-indigo-600 xl:inline">Archaeological Artifacts</span>
-              <span class="block l:inline">IITGN</span>
+              <span class="block text-primary-focus xl:inline">Archaeological Artifacts</span>
             </h1>
             <p class="mx-auto text-base text-gray-500 sm:max-w-md lg:text-xl md:max-w-3xl">View digitized 3D
-              representations of 100+ Bones from different animal species.</p>
+              representations of 100+ bones from different animal species from the Archaeological Sciences Centre, IIT
+              Gandhinagar</p>
             <div class="relative flex flex-col sm:flex-row sm:space-x-4">
               <a href="viewer.html"
-                class="flex items-center w-full px-6 py-3 mb-3 text-lg text-white bg-indigo-600 rounded-md sm:mb-0 hover:bg-indigo-700 sm:w-auto">
+                class="flex items-center w-full px-6 py-3 mb-3 text-lg text-white bg-primary-focus rounded-md sm:mb-0 hover:bg-primary-content sm:w-auto">
                 Start Viewing
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 ml-1" viewBox="0 0 24 24" fill="none"
                   stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -105,24 +114,19 @@
         </p>
 
       </div>
-      <!-- End  Content -->
     </div>
     <div
       class="box-border flex flex-col items-center content-center px-8 mx-auto mt-2 leading-6 text-black border-0 border-gray-300 border-solid md:mt-20 xl:mt-0 md:flex-row max-w-7xl lg:px-16">
 
-      <!-- Content -->
       <div class="box-border w-full text-black border-solid md:w-1/2 md:pl-6 xl:pl-32">
         <h2 class="m-0 text-xl font-semibold leading-tight border-0 border-gray-300 lg:text-3xl md:text-2xl">
           Who is this for?
         </h2>
         <p class="pt-4 pb-8 m-0 leading-7 text-gray-700 border-0 border-gray-300 sm:pr-10 lg:text-lg">
-          This project is meant to allow open access to the data collected by the Archaeological Sciences Center at various sites. We hope that this material will be useful for students and researchers around the globe.
+          We hope that this material will be useful for students and researchers around the globe. You can view a variety of bones and artifacts at this website.
         </p>
-        
-      </div>
-      <!-- End  Content -->
 
-      <!-- Image -->
+      </div>
       <div
         class="box-border relative w-full max-w-md px-4 mt-10 mb-4 text-center bg-no-repeat bg-contain border-solid md:mt-0 md:max-w-none lg:mb-0 md:w-1/2">
         <img src="https://cdn.devdojo.com/images/december2020/settings.png" class="pl-4 sm:pr-10 xl:pl-10 lg:pr-32">
