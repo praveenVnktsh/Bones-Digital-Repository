@@ -51,7 +51,7 @@
               <a href="index.html"
                 class="relative font-medium leading-6 text-gray-400 transition duration-150 ease-out hover:text-primary-content"
                 x-data="{ hover: false }" @mouseenter="hover = true" @mouseleave="hover = false">
-                <span class="block px-12">About</span>
+                <span class="block">About</span>
                 <span class="absolute bottom-0 left-0 inline-block w-full h-0.5 -mb-1 overflow-hidden">
                   <span x-show="hover" class="absolute inset-0 inline-block w-full h-1 h-full transform bg-gray-900"
                     x-transition:enter="transition ease duration-200" x-transition:enter-start="scale-0"
@@ -60,7 +60,7 @@
                 </span>
               </a>
               <a href="viewer.html"
-                class="relative font-medium leading-6 text-gray-400 transition duration-150 ease-out hover:text-gray-900"
+                class="relative font-medium leading-6 text-gray-400 transition duration-150 ease-out hover:text-primary-content"
                 x-data="{ hover: false }" @mouseenter="hover = true" @mouseleave="hover = false">
                 <span class="block">Viewer</span>
                 <span class="absolute bottom-0 left-0 inline-block w-full h-0.5 -mb-1 overflow-hidden">
@@ -75,11 +75,11 @@
           </div>
         </nav>
       </div>
-      <div class="flex px-4 gap-4 w-512 h-full">
-        <model-viewer id="model" class="w-full h-full" src="data/humerusLeft.glb" alt="TEMP TEXT" shadow-intensity="0"
+      
+      <div class="lg:flex px-4 gap-4 w-512 md:w-full">
+        <model-viewer id="model" class="w-full" src="data/humerusLeft.glb" alt="TEMP TEXT" shadow-intensity="0"
           camera-controls="true" auto-rotate="true" ar="true">
           <div><b id="model-text" class="my-10">Part of Species Name</b> </div>
-
           <div class="slider">
             <div class="slides">
               <button class="slide selected items-center" onclick="switchSrc(this,  0)">Humerus
@@ -92,25 +92,11 @@
             </div>
           </div>
         </model-viewer>
-        <div class="card w-96 bg-base-100 shadow-xl">
+        <div class="card w-full lg:w-96 bg-base-100 shadow-xl">
           <div class="card-body">
             <h2 class="card-title">Rhesus Monkey</h2>
-            <p>The rhesus macaque (Macaca mulatta), colloquially rhesus monkey, is a species of Old World
-              monkey. There
-              are between six and nine recognised subspecies that are split between two groups, the
-              Chinese-derived and
-              the Indian-derived. Generally brown or grey in colour, it is 47–53 cm (19–21 in) in length
-              with a 20.7–22.9
-              cm (8.1–9.0 iscapees after hurricanes destroyed zoo and
-              ised subspecies that are split between two groups, the Chinese-derived and
-              the Indian-derived. Generally brown or grey in colour, it is 47–53 cm (19–21 in) in length
-              with a 20.7–22
-              cm (8.1–9.0 iscapees after hurricanoups, the Chinese-derived and
-              the Indian-derived. Generally brown or grey in colour, it is 47–53 cm (19–21 in) in length
-              with a 20.7–22.9
-              cm (8.1–9.0 iscapees after hurricanes dest
+            <p>The rhesus macaque (Macaca mulatta), colloquially rhesus monkey, is a species of Old World monkey. There are between six and nine recognised subspecies that are split between two groups, the Chinese-derived and the Indian-derived. Generally brown or grey in colour, it is 47–53 cm (19–21 in) in length with a 20.7–22.9 cm (8.1–9.0 in) tail and weighs 5.3–7.7 kg (12–17 lb). It is native to South, Central, and Southeast Asia and has the widest geographic range of all non-human primates, occupying a great diversity of altitudes and a great variety of habitats, from grasslands to arid and forested areas, but also close to human settlements. Feral colonies are found in the United States, thought to be either released by humans or escapees after hurricanes destroyed zoo and wildlife park facilities.
 
-              wildlife par</p>
           </div>
         </div>
       </div>

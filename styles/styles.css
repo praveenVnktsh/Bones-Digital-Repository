@@ -46,8 +46,7 @@ model-viewer {
   background-color: #eee;
   overflow-x: hidden;
   --poster-color: #eee;
-  /* width: 800px;
-  height: 600px; */
+  height: 700px;
   border-radius: 15px;
   /* add padding */
   padding-left: 5px;
