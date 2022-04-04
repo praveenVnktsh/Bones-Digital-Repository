@@ -35,7 +35,17 @@
   width: 100px;
 }
 
+div.transbox p {
+  font-weight: bold;
+  color: #000000;
+}
 
+div.transbox {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 6px;
+  opacity: 0.8;
+}
 
 
 model-text{

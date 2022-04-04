@@ -11,25 +11,22 @@ fetch("data/data.json")
     document.getElementById("model-text").textContent =
       currentModel["name"] + " of a " + currentSpecies;
     var text = "";
-    
+
     for (let i = 0; i < currentSpeciesModel.length; i++) {
-      var temptext;
-      if(i == currentShowIndex){
-        temptext = '<button class="slide ' + 'selected ' + 'items-center" onclick="switchSrc(this,' +
-        i +
-        ')"> ' +
-        json[currentSpecies][i]["name"] +
-        "</button>";
+      var temptext = '<button class="slide ';
+      if (i == currentShowIndex) {
+        temptext += "selected ";
       }
-      else{
-        temptext = '<button class="slide items-center' + '" onclick="switchSrc(this,' +
+      temptext +=
+        'items-end justify-center" onclick="switchSrc(this,' +
         i +
-        ')"> ' +
+        ')"' +
+        'style="background-image: url(' +
+        json[currentSpecies][i]["posterurl"] +
+        ');background-size: cover;";><div class="transbox"> <p>' +
         json[currentSpecies][i]["name"] +
-        "</button>";
-      }
+        "</p> </div></button>";
       text += temptext;
-        
     }
     document.getElementById("boneSelector").innerHTML = text;
     console.log(dataFromNet);

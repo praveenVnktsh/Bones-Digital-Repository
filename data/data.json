@@ -1,12 +1,14 @@
 {
     "Rhesus Monkey": [
         {
-            "name": "Humerus (Left)",
-            "url": "data/humerusLeft.glb"
+            "name": "Humerus",
+            "url": "data/model/rhesus/models/humerusLeft.glb",
+            "posterurl": "data/model/rhesus/images/humerusLeft.jpg"
         },
         {
             "name": "Cranium",
-            "url": "data/Cranial.glb"
+            "url": "data/model/rhesus/models/Cranial.glb",
+            "posterurl": "data/model/rhesus/images/Cranial.jpg"
         }
     ],
     "Human": {
