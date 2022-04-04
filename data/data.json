@@ -1,15 +1,16 @@
-[
-    
-    {
-        "name": "Humerus (Left)",
-        "species": "Rhesus Monkey",
-        "url": "data/humerusLeft.glb",
-        "poster": "New York"
-    },
-    {
-        "name": "SpaceSuit",
+{
+    "Rhesus Monkey": [
+        {
+            "name": "Humerus (Left)",
+            "url": "data/humerusLeft.glb"
+        },
+        {
+            "name": "Cranium",
+            "url": "data/Cranial.glb"
+        }
+    ],
+    "Human": {
         "species": "Human",
-        "url": "https://cdn.glitch.com/36cb8393-65c6-408d-a538-055ada20431b/Astronaut.glb?1542147958948",
-        "poster": "New York"
+        "url": "https://cdn.glitch.com/36cb8393-65c6-408d-a538-055ada20431b/Astronaut.glb?1542147958948"
     }
-]
+}
