@@ -37,7 +37,6 @@
                 <a href="/" aria-current="page" aria-label="Homepage" class="flex-0 btn btn-ghost px-2 ">
                   <div class="font-title text-primary inline-flex text-lg transition-all duration-200 md:text-3xl">
                     <span class="uppercase text-base-content">ASC</span>
-                    <span class="lowercase text-primary">repo</span>
                     <span> <img src="data/logo.png" class="w-10"></span>
                     <span class="lowercase text-primary">IITGN</span>
                   </div>
@@ -77,8 +76,8 @@
       </div>
 
       <div class="lg:flex px-4 gap-4 w-512 md:w-full">
-        <model-viewer id="model" environment-image="neutral" class="w-full" src="data/humerusLeft.glb" alt="TEMP TEXT" shadow-intensity="0"
-          camera-controls="true" auto-rotate="true" ar="true">
+        <model-viewer id="model" environment-image="neutral" class="w-full" src="data/model/rhesus/models/humerusLeft.glb" alt="TEMP TEXT"
+          shadow-intensity="0" camera-controls="true" auto-rotate="true" ar="true">
           <div><b id="model-text" class="my-10">Part of Species Name</b> </div>
 
           <div class="slider">
@@ -94,16 +93,9 @@
         </model-viewer>
         <div class="card w-full lg:w-96 bg-base-100 shadow-xl">
           <div class="card-body">
-            <h2 class="card-title">Rhesus Monkey</h2>
-            <p>The rhesus macaque (Macaca mulatta), colloquially rhesus monkey, is a species of Old World monkey. There
-              are between six and nine recognised subspecies that are split between two groups, the Chinese-derived and
-              the Indian-derived. Generally brown or grey in colour, it is 47–53 cm (19–21 in) in length with a
-              20.7–22.9 cm (8.1–9.0 in) tail and weighs 5.3–7.7 kg (12–17 lb). It is native to South, Central, and
-              Southeast Asia and has the widest geographic range of all non-human primates, occupying a great diversity
-              of altitudes and a great variety of habitats, from grasslands to arid and forested areas, but also close
-              to human settlements. Feral colonies are found in the United States, thought to be either released by
-              humans or escapees after hurricanes destroyed zoo and wildlife park facilities.
-
+            <h2 class="card-title" id = "speciesInfoCardTitle">Rhesus Monkey</h2>
+            <p id="speciesDataCard">
+            </p>
           </div>
         </div>
       </div>
@@ -140,15 +132,9 @@
           </div>
         </div>
         <div class="h-4"></div>
-        <ul class="menu menu-compact flex flex-col p-0 px-4">
-
-          <li><a sveltekit:prefetch href="/components/button" id="" class="flex gap-4   ">
-              <span class="flex-1">Nilgai</span>
-            </a>
-          </li>
-          <li><a sveltekit:prefetch href="/components/dropdown" id="" class="flex gap-4   ">
-              <span class="flex-1">Rhesus Monkey</span>
-            </a>
+        <ul class="menu menu-normal flex flex-col p-0 px-4" id="speciesMenu">
+          <li><button onclick="switchSrc(this,  0)" id="" class="flex gap-4 text-left  ">
+              <span class="flex-1">Species 1</span></button>
           </li>
           <div class="from-base-200 pointer-events-none sticky bottom-0 flex h-20 bg-gradient-to-t to-transparent">
           </div>

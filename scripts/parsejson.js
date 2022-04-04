@@ -1,33 +1,20 @@
-var dataFromNet;
-var currentShowIndex = 0;
-var currentSpecies = "Rhesus Monkey";
-fetch("data/data.json")
+var manifest;
+
+fetch("data/model/manifest.json")
   .then((response) => response.json())
   .then((json) => {
-    dataFromNet = json;
-    var currentSpeciesModel = json[currentSpecies];
-    var currentModel = currentSpeciesModel[currentShowIndex];
-    document.getElementById("model").src = currentModel["url"];
-    document.getElementById("model-text").textContent =
-      currentModel["name"] + " of a " + currentSpecies;
+    manifest = json;
     var text = "";
-
-    for (let i = 0; i < currentSpeciesModel.length; i++) {
-      var temptext = '<button class="slide ';
-      if (i == currentShowIndex) {
-        temptext += "selected ";
-      }
-      temptext +=
-        'items-end justify-center" onclick="switchSrc(this,' +
-        i +
-        ')"' +
-        'style="background-image: url(' +
-        json[currentSpecies][i]["posterurl"] +
-        ');background-size: cover;";><div class="transbox"> <p>' +
-        json[currentSpecies][i]["name"] +
-        "</p> </div></button>";
-      text += temptext;
+    for (let i = 0; i < manifest.length; i++) {
+      text +=
+        "<li><button onclick= \"switchJSON(this,'" +
+        manifest[i]["loc"] +
+        '\')" class="flex gap-4 text-left">';
+      text +=
+        '<span class="flex-1">' +
+        manifest[i]["species"] +
+        "</span></button></li>";
     }
-    document.getElementById("boneSelector").innerHTML = text;
-    console.log(dataFromNet);
+    document.getElementById("speciesMenu").innerHTML = text;
+    switchJSON(this, manifest[0]["loc"]);
   });

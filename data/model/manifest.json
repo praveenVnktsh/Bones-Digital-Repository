@@ -1,0 +1,10 @@
+[
+    {
+        "species": "Rhesus Macaque",
+        "loc" : "data/model/rhesus/data.json"
+    },
+    {
+        "species": "Homo Sapiens",
+        "loc" : "data/model/nilgai/data.json"
+    }
+]
