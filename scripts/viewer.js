@@ -21,6 +21,7 @@ window.switchJSON = (element, name) => {
     .then((response) => response.json())
     .then((json) => {
       jsondata = json;
+      currentShowIndex = 0;
       currentSpecies = jsondata["species"];
       var models = jsondata["models"];
       var currentModel = models[currentShowIndex];
