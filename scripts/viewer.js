@@ -13,7 +13,12 @@ window.switchSrc = (element, name) => {
   var currentModel = jsondata["models"][currentShowIndex];
   document.getElementById("model").src = currentModel["url"];
   document.getElementById("model-text").textContent =
-    currentModel["name"] + " of a " + currentSpecies;
+    currentModel["name"] ;
+    document.getElementById("model-text-find").textContent = "Find Provenance:\t" + currentModel["find"];
+      document.getElementById("model-text-side").textContent = "Side:\t" + currentModel["side"];
+      document.getElementById("model-text-species").textContent = "Species:\t" + currentModel["species"];
+      document.getElementById("model-text-integrity").textContent = "Integrity:\t" + currentModel["integrity"];
+      document.getElementById("model-text-remarks").textContent = "Comments:\t" + currentModel["remarks"];
 };
 
 window.switchJSON = (element, name) => {
@@ -32,8 +37,12 @@ window.switchJSON = (element, name) => {
       document.getElementById("model").src = currentModel["url"];
       document.getElementById("model").poster = currentModel["posterurl"];
       
-      document.getElementById("model-text").textContent =
-        currentModel["name"] + " of a " + currentSpecies;
+      document.getElementById("model-text").textContent = currentModel["name"];
+      document.getElementById("model-text-find").textContent = "Find Provenance:\t" + currentModel["find"];
+      document.getElementById("model-text-side").textContent = "Side:\t" + currentModel["side"];
+      document.getElementById("model-text-species").textContent = "Species:\t" + currentModel["species"];
+      document.getElementById("model-text-integrity").textContent = "Integrity:\t" + currentModel["integrity"];
+      document.getElementById("model-text-remarks").textContent = "Comments:\t" + currentModel["remarks"];
       document.getElementById("speciesInfoCardTitle").innerText =
         currentSpecies;
       // speciesInfoCardTitle

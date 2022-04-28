@@ -1,10 +1,11 @@
 [
     {
-        "species": "Rhesus Macaque",
-        "loc" : "data/model/rhesus/data.json"
+        "species": "Miscelleaneous",
+        "loc" : "data/model/artec/data.json"
     },
     {
-        "species": "Nilgai",
-        "loc" : "data/model/artec/data.json"
-    }   
+        "species": "Rhesus Macaque",
+        "loc" : "data/model/rhesus/data.json"
+    }
+      
 ]

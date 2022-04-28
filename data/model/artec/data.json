@@ -5,155 +5,155 @@
             "url": "data/model/artec/models/01.20.glb",
             "find": "Sabarmati river",
             "side": "-",
-            "OBS SPECIES": "cattle",
-            "STATE OF INTEGRITY": "Incomplete",
-            "REMARKS": "Right pre-maxilla missing\n"
+            "species": "cattle",
+            "integrity": "Incomplete",
+            "remarks": "Right pre-maxilla missing\n"
         },
         {
             "name": "Cranium",
             "url": "data/model/artec/models/28.20.glb",
             "find": "Sabarmati river",
             "side": "\"Pre-maxilla missing. Dentition - right m2",
-            "OBS SPECIES": "m3. left broken p3",
-            "STATE OF INTEGRITY": " complete m2",
-            "REMARKS": "m3 present\"\n"
+            "species": "m3. left broken p3",
+            "integrity": " complete m2",
+            "remarks": "m3 present\"\n"
         },
         {
             "name": "Cranium",
             "url": "data/model/artec/models/31.20.glb",
             "find": "Sabarmati river",
             "side": "",
-            "OBS SPECIES": "dog",
-            "STATE OF INTEGRITY": "Incomplete",
-            "REMARKS": "all except central incisors and left canine present.\n"
+            "species": "dog",
+            "integrity": "Incomplete",
+            "remarks": "all except central incisors and left canine present.\n"
         },
         {
             "name": "Humerus",
             "url": "data/model/artec/models/75.20.glb",
             "find": "Sabarmati River",
             "side": "Right",
-            "OBS SPECIES": "cattle",
-            "STATE OF INTEGRITY": "Incomplete",
-            "REMARKS": "Proximal epiphysis damaged\n"
+            "species": "cattle",
+            "integrity": "Incomplete",
+            "remarks": "Proximal epiphysis damaged\n"
         },
         {
             "name": "Humerus",
             "url": "data/model/artec/models/76.20.glb",
             "find": "Sabarmati River",
             "side": "Left",
-            "OBS SPECIES": "cattle",
-            "STATE OF INTEGRITY": "Complete",
-            "REMARKS": "\n"
+            "species": "cattle",
+            "integrity": "Complete",
+            "remarks": "\n"
         },
         {
             "name": "Humerus",
             "url": "data/model/artec/models/77.20.glb",
             "find": "Sabarmati River",
             "side": "Left",
-            "OBS SPECIES": "cattle",
-            "STATE OF INTEGRITY": "Incomplete",
-            "REMARKS": "Proximal epiphysis unfused\n"
+            "species": "cattle",
+            "integrity": "Incomplete",
+            "remarks": "Proximal epiphysis unfused\n"
         },
         {
             "name": "Radius",
             "url": "data/model/artec/models/78.20.glb",
             "find": "Sabarmati River",
             "side": "Left",
-            "OBS SPECIES": "cattle",
-            "STATE OF INTEGRITY": "Complete",
-            "REMARKS": "\n"
+            "species": "cattle",
+            "integrity": "Complete",
+            "remarks": "\n"
         },
         {
             "name": "Radius-Ulna",
             "url": "data/model/artec/models/79.20.glb",
             "find": "Sabarmati River",
             "side": "Right",
-            "OBS SPECIES": "cattle",
-            "STATE OF INTEGRITY": "Incomplete",
-            "REMARKS": "Proximal and distal end damaged\n"
+            "species": "cattle",
+            "integrity": "Incomplete",
+            "remarks": "Proximal and distal end damaged\n"
         },
         {
             "name": "Femur",
             "url": "data/model/artec/models/81.20.glb",
             "find": "Sabarmati River",
             "side": "Right",
-            "OBS SPECIES": "cattle",
-            "STATE OF INTEGRITY": "Incomplete",
-            "REMARKS": "Head and condyle damaged\n"
+            "species": "cattle",
+            "integrity": "Incomplete",
+            "remarks": "Head and condyle damaged\n"
         },
         {
             "name": "Femur",
             "url": "data/model/artec/models/82.20.glb",
             "find": "Sabarmati River",
             "side": "Right",
-            "OBS SPECIES": "cattle",
-            "STATE OF INTEGRITY": "Incomplete",
-            "REMARKS": "Proximal epiphysis damaged\n"
+            "species": "cattle",
+            "integrity": "Incomplete",
+            "remarks": "Proximal epiphysis damaged\n"
         },
         {
             "name": "Tibia",
             "url": "data/model/artec/models/83.20.glb",
             "find": "Sabarmati River",
             "side": "Right",
-            "OBS SPECIES": "cattle",
-            "STATE OF INTEGRITY": "Complete",
-            "REMARKS": "\n"
+            "species": "cattle",
+            "integrity": "Complete",
+            "remarks": "\n"
         },
         {
             "name": "",
             "url": "data/model/artec/models/84.20.glb",
             "find": "Sabarmati River",
             "side": "Left",
-            "OBS SPECIES": "cattle",
-            "STATE OF INTEGRITY": "Complete",
-            "REMARKS": "\n"
+            "species": "cattle",
+            "integrity": "Complete",
+            "remarks": "\n"
         },
         {
             "name": "Calcaneum",
             "url": "data/model/artec/models/85.2.glb",
             "find": "Sabarmati River",
             "side": "Right",
-            "OBS SPECIES": "cattle",
-            "STATE OF INTEGRITY": "Complete",
-            "REMARKS": ""
+            "species": "cattle",
+            "integrity": "Complete",
+            "remarks": ""
         },
         {
             "name": "Calcaneum",
             "url": "data/model/artec/models/86.2.glb",
             "find": "Sabarmati River",
             "side": "Right",
-            "OBS SPECIES": "cattle",
-            "STATE OF INTEGRITY": "Complete",
-            "REMARKS": ""
+            "species": "cattle",
+            "integrity": "Complete",
+            "remarks": ""
         },
         {
             "name": "Metatarsus",
             "url": "data/model/artec/models/87.20.glb",
             "find": "Sabarmati River",
             "side": "Left",
-            "OBS SPECIES": "cattle",
-            "STATE OF INTEGRITY": "Complete",
-            "REMARKS": "\n"
+            "species": "cattle",
+            "integrity": "Complete",
+            "remarks": "\n"
         },
         {
             "name": "Metacarpus",
             "url": "data/model/artec/models/88.20.glb",
             "find": "Sabarmati River",
             "side": "Right",
-            "OBS SPECIES": "cattle",
-            "STATE OF INTEGRITY": "Complete",
-            "REMARKS": "\n"
+            "species": "cattle",
+            "integrity": "Complete",
+            "remarks": "\n"
         },
         {
             "name": "Metacarpus",
             "url": "data/model/artec/models/89.20.glb",
             "find": "Sabarmati River",
             "side": "Right",
-            "OBS SPECIES": "cattle",
-            "STATE OF INTEGRITY": "Incomplete",
-            "REMARKS": "Distal end unfused\n"
+            "species": "cattle",
+            "integrity": "Incomplete",
+            "remarks": "Distal end unfused\n"
         }
     ],
     "species": "Nilgai",
-    "description": "Humans (Homo sapiens) are the most abundant and widespread species of primate, characterized by bipedalism and large, complex brains. This has enabled the development of advanced tools, culture, and language. Humans are highly social and tend to live in complex social structures composed of many cooperating and competing groups, from families and kinship networks to political states. Social interactions between humans have established a wide variety of values, social norms, and rituals, which bolster human society. Curiosity and the human desire to understand and influence the environment and to explain and manipulate phenomena have motivated humanity's development of science, philosophy, mythology, religion, and other fields of study."
+    "description": "The nilgai (Boselaphus tragocamelus) (/ˈnilˌɡaɪ/, literally meaning \"blue cow\") is the largest Asian antelope and is ubiquitous across the northern Indian subcontinent. It is the sole member of the genus Boselaphus and was described by Peter Simon Pallas in 1766. The nilgai stands 1–1.5 m (3.3–4.9 ft) at the shoulder; males weigh 109–288 kg (240–635 lb), and the lighter females 100–213 kg (220–470 lb). A sturdy thin-legged antelope, the nilgai is characterised by a sloping back, a deep neck with a white patch on the throat, a short crest of hair along the neck terminating in a tuft, and white facial spots. A column of pendant coarse hair hangs from the dewlap ridge below the white patch. Sexual dimorphism is prominent – while females and juveniles are orange to tawny, adult males have a bluish-grey coat. Only males possess horns, 15–24 cm (5.9–9.4 in) long."
 }
