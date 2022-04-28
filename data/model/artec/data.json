@@ -1,0 +1,159 @@
+{
+    "models": [
+        {
+            "name": "Cranium",
+            "url": "data/model/artec/models/01.20.glb",
+            "find": "Sabarmati river",
+            "side": "-",
+            "OBS SPECIES": "cattle",
+            "STATE OF INTEGRITY": "Incomplete",
+            "REMARKS": "Right pre-maxilla missing\n"
+        },
+        {
+            "name": "Cranium",
+            "url": "data/model/artec/models/28.20.glb",
+            "find": "Sabarmati river",
+            "side": "\"Pre-maxilla missing. Dentition - right m2",
+            "OBS SPECIES": "m3. left broken p3",
+            "STATE OF INTEGRITY": " complete m2",
+            "REMARKS": "m3 present\"\n"
+        },
+        {
+            "name": "Cranium",
+            "url": "data/model/artec/models/31.20.glb",
+            "find": "Sabarmati river",
+            "side": "",
+            "OBS SPECIES": "dog",
+            "STATE OF INTEGRITY": "Incomplete",
+            "REMARKS": "all except central incisors and left canine present.\n"
+        },
+        {
+            "name": "Humerus",
+            "url": "data/model/artec/models/75.20.glb",
+            "find": "Sabarmati River",
+            "side": "Right",
+            "OBS SPECIES": "cattle",
+            "STATE OF INTEGRITY": "Incomplete",
+            "REMARKS": "Proximal epiphysis damaged\n"
+        },
+        {
+            "name": "Humerus",
+            "url": "data/model/artec/models/76.20.glb",
+            "find": "Sabarmati River",
+            "side": "Left",
+            "OBS SPECIES": "cattle",
+            "STATE OF INTEGRITY": "Complete",
+            "REMARKS": "\n"
+        },
+        {
+            "name": "Humerus",
+            "url": "data/model/artec/models/77.20.glb",
+            "find": "Sabarmati River",
+            "side": "Left",
+            "OBS SPECIES": "cattle",
+            "STATE OF INTEGRITY": "Incomplete",
+            "REMARKS": "Proximal epiphysis unfused\n"
+        },
+        {
+            "name": "Radius",
+            "url": "data/model/artec/models/78.20.glb",
+            "find": "Sabarmati River",
+            "side": "Left",
+            "OBS SPECIES": "cattle",
+            "STATE OF INTEGRITY": "Complete",
+            "REMARKS": "\n"
+        },
+        {
+            "name": "Radius-Ulna",
+            "url": "data/model/artec/models/79.20.glb",
+            "find": "Sabarmati River",
+            "side": "Right",
+            "OBS SPECIES": "cattle",
+            "STATE OF INTEGRITY": "Incomplete",
+            "REMARKS": "Proximal and distal end damaged\n"
+        },
+        {
+            "name": "Femur",
+            "url": "data/model/artec/models/81.20.glb",
+            "find": "Sabarmati River",
+            "side": "Right",
+            "OBS SPECIES": "cattle",
+            "STATE OF INTEGRITY": "Incomplete",
+            "REMARKS": "Head and condyle damaged\n"
+        },
+        {
+            "name": "Femur",
+            "url": "data/model/artec/models/82.20.glb",
+            "find": "Sabarmati River",
+            "side": "Right",
+            "OBS SPECIES": "cattle",
+            "STATE OF INTEGRITY": "Incomplete",
+            "REMARKS": "Proximal epiphysis damaged\n"
+        },
+        {
+            "name": "Tibia",
+            "url": "data/model/artec/models/83.20.glb",
+            "find": "Sabarmati River",
+            "side": "Right",
+            "OBS SPECIES": "cattle",
+            "STATE OF INTEGRITY": "Complete",
+            "REMARKS": "\n"
+        },
+        {
+            "name": "",
+            "url": "data/model/artec/models/84.20.glb",
+            "find": "Sabarmati River",
+            "side": "Left",
+            "OBS SPECIES": "cattle",
+            "STATE OF INTEGRITY": "Complete",
+            "REMARKS": "\n"
+        },
+        {
+            "name": "Calcaneum",
+            "url": "data/model/artec/models/85.2.glb",
+            "find": "Sabarmati River",
+            "side": "Right",
+            "OBS SPECIES": "cattle",
+            "STATE OF INTEGRITY": "Complete",
+            "REMARKS": ""
+        },
+        {
+            "name": "Calcaneum",
+            "url": "data/model/artec/models/86.2.glb",
+            "find": "Sabarmati River",
+            "side": "Right",
+            "OBS SPECIES": "cattle",
+            "STATE OF INTEGRITY": "Complete",
+            "REMARKS": ""
+        },
+        {
+            "name": "Metatarsus",
+            "url": "data/model/artec/models/87.20.glb",
+            "find": "Sabarmati River",
+            "side": "Left",
+            "OBS SPECIES": "cattle",
+            "STATE OF INTEGRITY": "Complete",
+            "REMARKS": "\n"
+        },
+        {
+            "name": "Metacarpus",
+            "url": "data/model/artec/models/88.20.glb",
+            "find": "Sabarmati River",
+            "side": "Right",
+            "OBS SPECIES": "cattle",
+            "STATE OF INTEGRITY": "Complete",
+            "REMARKS": "\n"
+        },
+        {
+            "name": "Metacarpus",
+            "url": "data/model/artec/models/89.20.glb",
+            "find": "Sabarmati River",
+            "side": "Right",
+            "OBS SPECIES": "cattle",
+            "STATE OF INTEGRITY": "Incomplete",
+            "REMARKS": "Distal end unfused\n"
+        }
+    ],
+    "species": "Nilgai",
+    "description": "Humans (Homo sapiens) are the most abundant and widespread species of primate, characterized by bipedalism and large, complex brains. This has enabled the development of advanced tools, culture, and language. Humans are highly social and tend to live in complex social structures composed of many cooperating and competing groups, from families and kinship networks to political states. Social interactions between humans have established a wide variety of values, social norms, and rituals, which bolster human society. Curiosity and the human desire to understand and influence the environment and to explain and manipulate phenomena have motivated humanity's development of science, philosophy, mythology, religion, and other fields of study."
+}
